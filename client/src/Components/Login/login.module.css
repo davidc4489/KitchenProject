@@ -1,0 +1,104 @@
+.login {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.loginbox {
+    width: 20%;
+    height: fit-content;
+    top: 30%;
+    right: 45%;
+    background-color: #fefefe;
+    z-index: 1;
+    position: fixed;
+    border: 1px solid black;
+    min-height: fit-content;
+}
+
+.logoutbox {
+    width: 15%;
+    height: 19%;
+    top: 40%;
+    left: 45%;
+    background-color: #fefefe;
+    z-index: 1;
+    position: fixed;
+    border: 1px solid black;
+}
+
+.titlelogin{
+    width: 90%;
+    height: 16%;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 13%;
+    text-decoration: underline;
+}
+
+.titlelogout{
+    width: 90%;
+    height: 16%;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 16%;
+    text-decoration: underline;
+} 
+
+.logininput {
+    width: 93%;
+    height: fit-content;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid black;
+    margin: 1%;
+    margin-left: 3%;
+    text-align: right;
+}
+
+.loginbuttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
+
+.loginbutton {
+    width: 40%;
+    height: 5vh;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.logoutbuttonbox{
+    text-align: center;
+    display: flex;
+}
+
+.logoutbutton {
+    width: 40%;
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.personalinformationsbutton{
+    width: 40%;
+    height: fit-content;
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 6%;
+}

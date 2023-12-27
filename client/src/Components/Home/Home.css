@@ -1,0 +1,32 @@
+.Home{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Home-Titles{
+    width: 80vw;
+    padding-top: 35vh;
+    padding-right: 5vw;
+    text-align: center;
+}
+
+.Home-FirstTitle{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.Home-SecondTitle{
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: brown;
+    font-style: italic;
+}
+
+.Home-ThirdTitle{
+    font-size: 30px;
+    color: grey;
+}
+
+.Home-LogoTitle{
+    color:lightskyblue
+}

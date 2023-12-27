@@ -1,0 +1,6 @@
+.ingredientItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    border-bottom: 1px solid grey;
+}
